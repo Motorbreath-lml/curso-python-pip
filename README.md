@@ -1,0 +1,2 @@
+#Entornos virtuales en Python 3
+El curso se imparte en Linux, lo quiero hacer en Windows ya que en los proximos dias realizare un proyecto en Windows con interfaces graficas, la biblioteca serial de Python, un doungle USB de MTI RFID ME para escribir en etiquetas RFID codigos unicos desde una base de datos en SQL

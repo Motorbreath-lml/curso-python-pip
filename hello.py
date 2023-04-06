@@ -1,1 +1,1 @@
-print("Hola desde Windows perras")
+print("Hola desde Windows")
