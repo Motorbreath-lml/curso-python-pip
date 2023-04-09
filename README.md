@@ -8,9 +8,10 @@ cd .\game\
 py .\main.py
 ```
 ## App Project
-Para poder utilizar esta app, entramos en la carpeta app, instalamos las dependencias necesarias, y se ejecuta el archivo main.py, acontinuacion se muestran los comando ejecutados en PoweShell
+Para poder utilizar esta app, entramos en la carpeta app, creamos un entrono virtual con el nombre de env, instalamos las dependencias necesarias, y se ejecuta el archivo main.py, acontinuacion se muestran los comando ejecutados en PoweShell
 ```powershell
 cd .\app\
+python -m venv env
 .\env\Scripts\Activate.ps1
 pip3 install -r requirements.txt
 py .\main.py
