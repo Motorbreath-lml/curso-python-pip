@@ -17,3 +17,21 @@ pip3 install -r requirements.txt
 py .\main.py
 ```
 El script de `main.py` al ser ejecutado pedira el nombre de algun país, por ejemplo: México, pero al momento de escribirlo para el programa no se utiliza acentos, entonces la entrada para el programa seria Mexico sin acento.
+
+## Web-server
+En este proyecto se usa la biblioteca `Request` para realizar peticiones a las apis, en este caso de realiza una peticion a la fakeapi de Platzi.
+```powershell
+cd .\web-server\
+python -m venv env
+.\env\Scripts\Activate.ps1
+pip3 install -r requeriments.txt
+py .\main.py
+```
+### Utilizar Uvicorn y Fastapi
+Esta seccion del proyecto se utiliza `Uvicorn` para crear un servidor web de desarrollo para `Fastapi`. En `Fastapi` se creaun un por de rutas para una api sencilla, las cuales se pueden consultar en el navegador.
+Commando para levantar el servidor:
+```powershell
+(env)  j3r4ck: web-server on main [ env 3.11.0] 
+❯ uvicorn main:app --reload
+```
+El comando creara un localhost en el puerto 8000, con lo que podemos ver los resultados de la api en cualquier navegador de nuestro sistema utilizando la siguiente URL: `http://127.0.0.1:8000`
